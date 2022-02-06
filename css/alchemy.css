@@ -114,14 +114,17 @@ header nav a:hover{
     column-span: all;
     font-size: 5.5em;
    line-height: 150%;
+
 }
 
 .hometext >p{
     column-span: all;
-    line-height: 150%;
+    line-height: 120%;
     font-size: 1em;
     padding-top: 50%;
     font-style: italic;
+    color:  rgba(255, 255, 255, 0.5);
+    text-align: center;
 }
 
 .left{
@@ -135,18 +138,145 @@ header nav a:hover{
 
 .monogram{
     display: block;
-    
     padding: 1.2em;
 
 }
 
 footer{
     width: 100%;
+    height: auto;
     color:white;
     text-align: end;
 }
-.holder >p{
+footer >div >p{
     padding: 1.2em;
+}
+footer >div >p >a{
+    color: #00a997;
+}
+/* *************************PORTFOLIO********************************** */
+
+.cuadrado{
+  
+    column-count: 2;
+    padding: 0.5em;
+    margin: 0.5em;;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: #00a997;
+    height: 100px;
+
+}
+.cuadrado >h2{
+    line-height: 100px;
+    background: #00a997;
+    font-size: 3em;
+    color:#ffffff;
+    text-align: center;
+}
+
+.cuadrado > p{
+    height: 100px;
+    padding: 1.5em;
+    color:#252932;
+    font-weight: bold;
     font-style: italic;
-    font-weight: 200;
+    
+}
+.container{
+display:flex;
+flex-flow: row wrap;
+
+}
+
+.foto{
+    display:inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.foto>img{
+    
+    width: 500px;
+    height:400px; 
+}
+
+.centrado{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 3px #252932;
+}
+
+.centrado > p{
+    font-size: 0.8em;
+}
+
+/* Contact */
+
+.columns{
+   column-count: 2;
+   padding: 2em 2em;
+   font-family: 'Raleway', sans-serif !important;
+   font-size: 14px;
+   line-height: 24px;
+
+}
+
+.leftColumn{
+    padding-left: 53%;
+    border-right: 1px solid #00a997;
+    color:white;
+    list-style: none;
+}
+.rightColumn{
+    color:white;
+}
+.rightColumn>ul{
+    list-style: none;
+}
+.leftColumn>ul{
+    list-style: none;
+}
+.leftColumn>ul>li>a{
+    color: #ffffff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif !important;
+    margin: 2em;
+
+
+}
+.form>input{
+    border-style:double;
+    padding: 0.5em;
+    background-color: #252932;
+    border-color: gray;
+    color:rgba(255, 255, 255, 0.2);
+}
+
+
+#coment{
+    padding: 0.5em;
+    background-color: #252932 ;
+    border-color: gray;
+    color:rgba(255, 255, 255, 0.2);
+}
+.form textarea{
+    height: 10em;
+    resize: none;
+    margin-bottom: 2em;
+}
+#send{
+
+    margin-left: 50%;
+    color: #ffffff;
+    width:70px;
+    text-align: center;
+    border-style:double;
 }
