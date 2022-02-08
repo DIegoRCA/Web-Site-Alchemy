@@ -6,7 +6,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     }
 
-main, footer{background: #252932;}
+main, footer {background: #252932;}
 
 /* *************** nav*************** */
 
@@ -355,6 +355,7 @@ text-align: center;
 
 .back{
     background-color: black;
+    width: 100%
 }
 /* services */
 
@@ -374,4 +375,7 @@ text-align: center;
 }
 .texto-services{
 color:white;
+}
+.footer-about{
+background-color: #00a997;
 }
